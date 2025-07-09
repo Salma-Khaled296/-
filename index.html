@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Profile</title>
+  <title>Black Goose Bistro | Pizza-on-Demand</title>
 </head>
 <body>
-  <h1> salma khaled</h1>
-  <h2>Web Developer</h2>
-  <h3>About Me</h3>
+  <a href="#">Main</a>
+  <a href="#">Make an Order</a>
+  <a href="#">Contact Us</a>
+  <h1>Black Goose Bistro | Pizza-on-Demand</h1>
   <p>
-    أنا سلمى بحب البرمجة وتعلم كل جديد في عالم الويب. <b> </b>!
+    Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour.
   </p>
-
-  <h3>My Skills</h3>
-  <ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ol>
-  <ul>
-    <li>art</li>
-    <li>Reading</li>
-    <li>Music</li>
-  </ul>
-
-  <a href="https://www.google.com" target="_blank">My favorite website</a>
-
-  <blockquote>
-    "Success is not the key to happiness. Happiness is the key to success."
-  </blockquote>
 
   <form>
     <fieldset>
-      <legend>Contact Me</legend>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br>
-      <input type="submit" value="Send">
+      <legend>Your Information</legend>
+      <label>Name</label>
+      <input type="text"><br>
+      <label>Address:</label>
+      <input type="text"><br>
+      <label>Telephone Number:</label>
+      <input type="text"><br>
+      <label>Email:</label>
+      <input type="email"><br>
+      <label>Delivery Instruction:</label><br>
+      <textarea rows="3" cols="40">No more than 400 character long</textarea>
     </fieldset>
-  </form>
 
-  <!-- عنصر جديد: <abbr> لعرض اختصار -->
-  <p>
-    I study at <abbr title="Information Technology Institute">ITI</abbr>.
-  </p>
-  <!-- عنصر جديد: <mark> لتظليل النص -->
-  <p>
-    My favorite word is: <mark>Creativity</mark>
-  </p>
-  <!-- عنصر جديد: استخدام خاصية autofocus في input -->
-  <input type="text" placeholder="Type here..." autofocus>
+    <br>
+
+    <fieldset>
+      <legend>Design Your Dream Pizza:</legend>
+      <b>Pizza specs</b><br><br>
+      <b>Crust (Choose one):</b><br>
+      <input type="radio" name="crust"> Classic White<br>
+      <input type="radio" name="crust"> Multigrain<br>
+      <input type="radio" name="crust"> Choose-stuffed crust<br>
+      <input type="radio" name="crust"> Gluten-free<br><br>
+
+      <b>Toppings (Choose as many as you want):</b><br>
+      <input type="checkbox" name="topping"> Red Sauce<br>
+      <input type="checkbox" name="topping"> White Sauce<br>
+      <input type="checkbox" name="topping"> Mozzarella Cheese<br>
+      <input type="checkbox" name="topping"> Pepperoni<br>
+      <input type="checkbox" name="topping"> Mushrooms<br>
+      <input type="checkbox" name="topping"> Peppers<br>
+      <input type="checkbox" name="topping"> Anchovies<br><br>
+
+      <b>Number</b><br>
+      How many pizzas: <input type="number" min="1"><br>
+    </fieldset>
+    <br>
+    <input type="submit" value="Bring me a pizza!">
+    <input type="reset" value="Reset">
+  </form>
 </body>
 </html>
